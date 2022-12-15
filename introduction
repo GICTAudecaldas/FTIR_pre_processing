@@ -1,6 +1,6 @@
 In this code, we are able to:
 1. pre-process (normalization, baseline substraction) the FTIR spectra and save it as .CSV files for further plot
-2. perform an exploratory analysis of the data by making a hierarchical clustering of the FTIR spectra and obtain the dendrogram and heatmap of the loads involved
+2. perform an exploratory analysis of the data by making a hierarchical clustering of the FTIR spectra. Obtaining the dendrogram and heatmap of the loads involved
 3. apply dimensionality reduction techniques as PCA and PLS
-4.fit_train_test 4 classification models over the reduced data of the FTIR spectra
-5.Make predictions of unseen FTIR spectra 
+4. fit_train_test 4 classification models over the reduced data of the FTIR spectra through a pipeline
+5. Make predictions of unseen FTIR spectra 
